@@ -17,6 +17,11 @@ const IndexPage = () => (
         <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
         <div className="Logos">
           <img src={logo}width="50" />
+          <img src={logo}width="50" />
+          <img src={logo}width="50" />
+          <img src={logo}width="50" />
+          <img src={logo}width="50" />
+          <img src={logo}width="50" />
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path fill="#f3f4f5" fill-opacity="1" >

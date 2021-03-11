@@ -65,6 +65,14 @@ a {
   color: black;
 }
 
+.Hero .Logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 40px;
+  margin: 100px 0;
+  justify-items: center;
+}
+
 @media (max-width: 640px) {
   .HeroGroup {
     padding: 100px 20px;

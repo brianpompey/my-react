@@ -8,9 +8,15 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>I love it here</h1>
-    <p>This is my home!</p>
-    <p>Now go build something great.</p>
+    <div className="Hero">
+      <div className="HeroGroup">
+        <h1>I love it here</h1>
+        <p>This is my home!</p>
+        <p>Now go build something great.</p>
+
+        <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+      </div>
+    </div>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
@@ -21,7 +27,6 @@ const IndexPage = () => (
     />
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </p>
   </Layout>
 )

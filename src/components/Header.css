@@ -17,6 +17,12 @@
 .Header a {
     color: white;
     font-weight: 700;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1)
+}
+
+.Header a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-8px);
 }
 
 .Header button {
@@ -28,6 +34,13 @@
     border-radius: 10px;
     outline: none;
     cursor: pointer;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1)
+}
+
+.Header button:hover {
+    background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-8px);
 }
 
 @media (max-width: 640px) {
